@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
+  imgSrc = {
+    logo : 'assets/images/logo_zxc.png',
+    blogFeature : 'assets/images/keyboard.jpg',
+    shopFeature : 'assets/images/logo_zxc.png',
+    designFeature : 'assets/images/webDesign.jpg',
+  };
 }
